@@ -1,0 +1,6 @@
+framework module KeyboardToolBar {
+  umbrella header "KeyboardToolBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

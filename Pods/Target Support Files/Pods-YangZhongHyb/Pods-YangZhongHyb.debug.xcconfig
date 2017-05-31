@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/ActionSheetPicker-3.0" "$PODS_CONFIGURATION_BUILD_DIR/KeyboardToolBar" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD+DK" "$PODS_CONFIGURATION_BUILD_DIR/UnicodeLog"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking/AFNetworking.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KeyboardToolBar/KeyboardToolBar.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD+DK/MBProgressHUD_DK.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/UnicodeLog/UnicodeLog.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "ActionSheetPicker_3_0" -framework "KeyboardToolBar" -framework "MBProgressHUD_DK" -framework "UnicodeLog"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
